@@ -9,7 +9,7 @@ const dest = path.resolve(__dirname, '../public/intl/country');
 const files = fs.readdirSync(src);
 
 const getUrl = locale =>
-  `https://raw.githubusercontent.com/umpirsky/country-list/master/data/${locale}/country.json`;
+  `https://ghproxy.cc/https://raw.githubusercontent.com/umpirsky/country-list/master/data/${locale}/country.json`;
 
 const asyncForEach = async (array, callback) => {
   for (let index = 0; index < array.length; index++) {
