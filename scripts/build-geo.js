@@ -14,7 +14,7 @@ if (process.env.VERCEL) {
 
 const db = 'GeoLite2-City';
 
-let url = `https://raw.githubusercontent.com/GitSquared/node-geolite2-redist/master/redist/${db}.tar.gz`;
+let url = `https://ghfast.top/https://raw.githubusercontent.com/GitSquared/node-geolite2-redist/master/redist/${db}.tar.gz`;
 
 if (process.env.MAXMIND_LICENSE_KEY) {
   url =

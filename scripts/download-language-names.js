@@ -9,7 +9,7 @@ const dest = path.resolve(__dirname, '../public/intl/language');
 const files = fs.readdirSync(src);
 
 const getUrl = locale =>
-  `https://raw.githubusercontent.com/umpirsky/language-list/master/data/${locale}/language.json`;
+  `https://ghfast.top/https://raw.githubusercontent.com/umpirsky/language-list/master/data/${locale}/language.json`;
 
 const asyncForEach = async (array, callback) => {
   for (let index = 0; index < array.length; index++) {
